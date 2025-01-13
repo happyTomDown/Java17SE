@@ -1,5 +1,6 @@
 package Unit3;
 
+import java.util.Iterator;
 import java.util.Scanner;
 
 public class Level5 {
@@ -20,6 +21,7 @@ public class Level5 {
 		}
 		};
 		System.out.printf("得分等級:%s%n", level);
+
 	}
 
 }
