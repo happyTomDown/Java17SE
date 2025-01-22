@@ -16,8 +16,8 @@ public class Score2 {
 		for(int score:scores) {
 			System.out.printf("%3d",score);
 		}
-		
-		
+
+
 	}
 
 }
