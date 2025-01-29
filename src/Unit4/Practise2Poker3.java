@@ -1,6 +1,6 @@
 package Unit4;
 
-public class PractisePoker3 {
+public class Practise2Poker3 {
 
 	public static void main(String[] args) {
 		int num = 52;
@@ -29,4 +29,5 @@ public class PractisePoker3 {
 			}
 		}
 	}
+
 }
