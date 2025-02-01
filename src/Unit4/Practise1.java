@@ -7,20 +7,21 @@ public class Practise1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		System.out.printf("求幾個費式數?");
-		int mon = scanner.nextInt();
-		int[] fn = new int[mon];
-		fn[0] = 0;
-		if(mon>1) {
-		fn[1] = 1;
+		int n = scanner.nextInt();
+		if(n<=0) {
+			System.out.println("請輸入大於0的數");
+			return;
 		}
-
-		for (int i = 2; i < mon; i++) {
-			fn[i] = fn[i - 1] + fn[i - 2];
+		var fibonacci = new int[n];
+		if(n>1) {
+			fibonacci[1] = 1;			
 		}
-		for(var fns:fn) {
-			System.out.printf("%d ",fns);
+		for (int i = 2; i < fibonacci.length; i++) {
+			fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
 		}
-
+		for(int fib:fibonacci) {
+			System.out.printf("%-3d",fib);
+		}
 	}
 
 }
