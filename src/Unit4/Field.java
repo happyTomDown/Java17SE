@@ -1,5 +1,7 @@
 package Unit4;
 
+
+
 class Clothes {
 	String color;
 	char size;
@@ -17,7 +19,6 @@ public class Field {
 		spring.size ='M';
 		System.out.printf("sun (%s, %c)%n",sun.color,sun.size);
 		System.out.printf("spring (%s, %c)%n",spring.color,spring.size);
-
 	}
 
 }
