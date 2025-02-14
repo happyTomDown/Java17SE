@@ -1,6 +1,6 @@
 package Unit6;
 
-public class Role {
+public abstract class Role {
 	private String name;
 	private int level;
 	private int blood;
@@ -28,5 +28,12 @@ public class Role {
 	public void setBlood(int blood) {
 		this.blood = blood;
 	}
+	public abstract void fight() ;
+	
+	@Override
+	public String toString() {
+	return "(%s,%d,%d)".formatted(this.name,this.level,this.blood);
+	}
 
 }
+	
