@@ -4,7 +4,8 @@ public class Test2 {
 	boolean isRepeat;
 	int temp;
 	int temp2;
-	public void poker(int[][]star) {
+
+	public void poker(int[][] star) {
 
 		for (int i = 0; i < star.length; i++) {
 			for (int j = 0; j < star[i].length; j++) {
@@ -23,7 +24,8 @@ public class Test2 {
 			}
 		}
 	}
-	public void poker2(int[][]star) {
+
+	public void poker2(int[][] star) {
 		for (int i = 0; i < star.length; i++) {
 			for (int j = 0; j < star[i].length - 1; j++) {
 				for (int k = 0; k < star[i].length - 1 - j; k++) {

@@ -8,7 +8,6 @@ public class Test {
 		int count = 0;
 		Test2 test2 = new Test2();
 
-
 		Scanner scanner = new Scanner(System.in);
 
 		System.out.print("請輸入要幾組:");
@@ -28,6 +27,7 @@ public class Test {
 				}
 			}
 		}
+
 	}
 
 }
